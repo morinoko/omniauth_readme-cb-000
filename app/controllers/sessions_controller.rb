@@ -12,6 +12,7 @@ class SessionsController < ApplicationController
   end
 
   private
+  
   def auth
     request.env['onmiauth.auth']
   end
