@@ -14,6 +14,6 @@ class SessionsController < ApplicationController
   private
   
   def auth
-    request.env['onmiauth.auth']
+    request.env['omniauth.auth']
   end
 end
