@@ -6,9 +6,9 @@
       xfbml      : true,
       version    : 'v3.2'
     });
-      
-    FB.AppEvents.logPageView();   
-      
+
+    FB.AppEvents.logPageView();
+
   };
 
   (function(d, s, id){
@@ -19,4 +19,5 @@
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 </script>
-<%# Add the Facebook login link here %>
+
+<% link_to('Log in with Facebook!', '/auth/facebook') %>
